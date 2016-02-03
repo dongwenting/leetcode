@@ -1,4 +1,4 @@
-package leetcode.cn.ac.iie;
+package cn.ac.iie.leetcode;
 
 public class RotateArray {
 	
