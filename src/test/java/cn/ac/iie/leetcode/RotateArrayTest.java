@@ -6,7 +6,13 @@ public class RotateArrayTest {
 
 	@Test
 	public void test(){
-		int[] nums = {0, 1,2,3,4,5,6,7};
-		new SearchInRotatedSortedArray().binarySearch(nums, 0, 8, 1);
+		new RotateArray().rotate(new int[]{1, 2}, 1);
+	}
+	
+	@Test
+	public void test1(){
+		int[] a = {1,2};
+		new RotateArray().swap(a, 0 ,1);
+		System.out.println(a);
 	}
 }
