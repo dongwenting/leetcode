@@ -1,7 +1,5 @@
 package leetcode.algorithms.array;
 
-import java.util.ArrayList;
-import java.util.List;
 
 /**
  * https://leetcode.com/problems/median-of-two-sorted-arrays/
