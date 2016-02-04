@@ -1,4 +1,4 @@
-package cn.ac.iie.leetcode.algorithms;
+package leetcode.algorithms.array;
 
 /**
  * https://leetcode.com/problems/search-in-rotated-sorted-array/

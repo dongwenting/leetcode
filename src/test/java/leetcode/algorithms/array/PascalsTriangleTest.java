@@ -1,8 +1,8 @@
-package cn.ac.iie.leetcode.algorithms;
+package leetcode.algorithms.array;
+
+import leetcode.algorithms.array.PascalsTriangle;
 
 import org.junit.Test;
-
-import cn.ac.iie.leetcode.algorithms.PascalsTriangle;
 
 public class PascalsTriangleTest {
 
