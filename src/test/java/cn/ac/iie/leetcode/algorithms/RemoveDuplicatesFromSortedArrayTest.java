@@ -1,10 +1,10 @@
-package cn.ac.iie.leetcode;
+package cn.ac.iie.leetcode.algorithms;
 
 
 import org.junit.Assert;
 import org.junit.Test;
 
-import cn.ac.iie.leetcode.RemoveDuplicatesFromSortedArray;
+import cn.ac.iie.leetcode.algorithms.RemoveDuplicatesFromSortedArray;
 
 public class RemoveDuplicatesFromSortedArrayTest {
 

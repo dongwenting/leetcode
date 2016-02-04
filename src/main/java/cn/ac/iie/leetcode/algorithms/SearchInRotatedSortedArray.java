@@ -1,14 +1,14 @@
-package cn.ac.iie.leetcode;
+package cn.ac.iie.leetcode.algorithms;
 
 /**
  * https://leetcode.com/problems/search-in-rotated-sorted-array/
  *
  */
-public class SearchInRotatedSortedArray2 {
+public class SearchInRotatedSortedArray {
 	
-	public boolean search(int[] nums, int key) {
+	public int search(int[] nums, int key) {
 		if(nums == null || nums.length == 0){
-			return false;
+			return -1;
 		}
 		int pos;
 		for(pos = 0; pos< nums.length -1; pos++){
@@ -23,7 +23,7 @@ public class SearchInRotatedSortedArray2 {
 			index = binarySearch(nums, pos+1, nums.length -1, key);
 		}
 		
-		return index == -1 ? false: true;
+		return index;
 	}
 	
 	public int binarySearch(int[] nums, int begin, int end, int key){

@@ -1,24 +1,24 @@
-package cn.ac.iie.leetcode;
+package cn.ac.iie.leetcode.algorithms;
 
 import java.util.ArrayList;
 import java.util.List;
 
 /**
- * https://leetcode.com/problems/pascals-triangle/
+ * https://leetcode.com/problems/pascals-triangle-ii/
  *
  */
-public class PascalsTriangle {
+public class PascalsTriangle2 {
 	
-    public List<List<Integer>> generate(int numRows) {
-    	if(numRows < 1){
-    		return new ArrayList<List<Integer>>();
+    public List<Integer> getRow(int rowIndex) {
+    	if(rowIndex < 0){
+    		return new ArrayList<Integer>();
     	}
     	
     	List<List<Integer>> triangle = new ArrayList<List<Integer>>();
     	List<Integer> first = new ArrayList<Integer>();
     	first.add(1);
     	triangle.add(first);
-    	for(int i=1; i<numRows; i++){
+    	for(int i=1; i<rowIndex+1; i++){
     		List<Integer> row = new ArrayList<Integer>();
     		for(int j=0; j<=i; j++){
     			int right = 0;
@@ -34,6 +34,6 @@ public class PascalsTriangle {
     		
     		triangle.add(row);
     	}
-    	return triangle;
+    	return triangle.get(rowIndex);
     }
 }

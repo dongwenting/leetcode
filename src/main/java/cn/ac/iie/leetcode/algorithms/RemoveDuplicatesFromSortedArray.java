@@ -1,4 +1,4 @@
-package cn.ac.iie.leetcode;
+package cn.ac.iie.leetcode.algorithms;
 
 /**
  * https://leetcode.com/problems/remove-duplicates-from-sorted-array/

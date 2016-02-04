@@ -1,4 +1,4 @@
-package cn.ac.iie.leetcode;
+package cn.ac.iie.leetcode.algorithms;
 
 import java.util.ArrayList;
 import java.util.List;

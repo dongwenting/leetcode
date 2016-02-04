@@ -1,6 +1,8 @@
-package cn.ac.iie.leetcode;
+package cn.ac.iie.leetcode.algorithms;
 
 import org.junit.Test;
+
+import cn.ac.iie.leetcode.algorithms.MedianOfTwoSortedArrays;
 
 public class MedianOfTwoSortedArraysTest {
 	
