@@ -95,7 +95,7 @@ public class TreeNode {
 	}
 	
 	private static TreeNode createTreeNode(String val){
-		if(val.equals("null")){
+		if(val.equals("null") || val.equals("#")){
 			return null;
 		}else{
 			return new TreeNode(Integer.parseInt(val));
